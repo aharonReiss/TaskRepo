@@ -1,0 +1,48 @@
+.task-details-container{
+    padding: 5px;
+    border-radius: 10px;
+    border: blueviolet 2px solid;
+}
+.task-info-header{
+    width: max-content;
+    margin: auto;
+}
+.task-element{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    margin: 15px 0;
+}
+.tast-header{
+    color: blueviolet;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.task-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    color:white;
+    border: 5px solid gray;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 71%;
+    height: 30px;
+}
+.button-add{
+    background-color: gray;
+}
+.button-add:hover{
+    background-color: white;
+    color: gray;
+}
+.button-remove{
+    background-color: red;
+}
+.button-remove:hover{
+    background-color: white;
+    color: red;
+}
