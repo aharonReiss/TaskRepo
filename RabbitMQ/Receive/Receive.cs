@@ -22,7 +22,7 @@ consumer.Received += (model, ea) =>
     var message = Encoding.UTF8.GetString(body);
     Console.WriteLine($" [x] Received {message}");
 };
-channel.BasicConsume(queue: "hello",
+channel.BasicConsume(queue: "task",
                      autoAck: true,
                      consumer: consumer);
 
